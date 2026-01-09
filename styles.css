@@ -1,0 +1,364 @@
+#body {
+    background-color: #1a1b26;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.content {
+    width: 50%;
+}
+
+.title {
+    font-size: 4em;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    color: #f7768e;
+}
+
+.description {
+    font-size: 1.2em;
+    font-family: "Work Sans";
+    color: #c0caf5;
+    margin-top: 2em;
+}
+
+.d-highlight {
+    color: #bb9af7;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s, filter 0.2s;
+}
+
+#navbar-brand {
+    font-family: "Playfair Display";
+    color: #f7768e;
+}
+
+#navbar-links .icon {
+    width: 20px;
+    height: 20px;
+    transition: fill 0.2s, filter 0.2s, transform 0.2s;
+}
+
+#navbar-links .icon:hover {
+    transform: translateY(-2px);
+}
+
+#navbar-links a {
+    fill: #9aa5ce;
+}
+
+.home-icon:hover {
+    fill: #f7768e;
+}
+
+.palette-icon:hover {
+    fill: #2ac3de;
+}
+
+.about-icon:hover {
+    fill: #9ece6a;
+}
+
+.nav-container {
+    background-color: #161720;
+}
+
+.custom-navbar {
+    background-color: #ffffff00;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #bb9af7;
+}
+
+.custom-navbar .nav-link:focus {
+    color: #bb9af7;
+}
+
+.navbar-logo {
+    width: 7em;
+}
+
+.buttons-container {
+    border-bottom: 1px solid #f7768e;
+    padding-bottom: 3em;
+    font-family: "Work Sans";
+}
+
+.buttons-container .btn {
+    color: #1a1b26;
+    border: none;
+    transition: transform 0.1s, background-color 0.2s;
+}
+.buttons-container #btn:active {
+    color: #1a1b26;
+    transform: scale(0.97);
+}
+
+.buttons-container .github-btn {
+    background-color: #73daca;
+}
+
+.buttons-container .github-btn:hover {
+    background-color: #2ac3de;
+    color: #1a1b26;
+}
+
+.buttons-container .palette-btn {
+    background-color: #e0af68;
+}
+
+.buttons-container .palette-btn:hover {
+    background-color: #ff9e64;
+    color: #1a1b26;
+}
+
+.btn-icon {
+    width: 32px;
+    height: 32px;
+    fill: #1a1b26;
+}
+
+.img-html {
+    box-shadow: 0 0 10px #f7768e;
+    border: 1px solid #f7768e;
+    border-radius: 0.375em;
+}
+
+.img-css {
+    box-shadow: 0 0 10px #9ece6a;
+    border: 1px solid #9ece6a;
+    border-radius: 0.375em;
+}
+
+.img-js {
+    box-shadow: 0 0 10px #73daca;
+    border: 1px solid #73daca;
+    border-radius: 0.375em;
+}
+
+body h3 {
+    font-family: "Playfair Display";
+    color: #9aa5ce;
+    font-size: 3em;
+}
+
+body h4 {
+    font-family: "Playfair Display";
+    color: #9aa5ce;
+    font-size: 2em;
+}
+
+.color-card {
+    background-color: #161720;
+    color: #c0caf5;
+    border-radius: 1em;
+    overflow: hidden;
+    height: 10em;
+    width: 10em;
+    box-shadow: 2px 2px 10px #0c0c11c5;
+    transition: transform 0.2s;
+}
+
+.color-card:hover {
+    transform: scale(1.04);
+}
+
+.color-box {
+    height: 6em;
+}
+
+.color-card-body {
+    padding: 0.5em;
+}
+
+.color-card-body h6 {
+    color: #9aa5ce;
+    font-family: "Work Sans";
+    font-size: 0.8em;
+}
+
+.palette-container .title {
+    font-family: "Playfair Display";
+    color: #f7768e;
+    font-size: 4em;
+}
+
+.para {
+    font-family: "Work Sans";
+    color: #9aa5ce;
+    font-size: 1.2em;
+}
+
+.palette-title {
+    font-family: "Playfair Display";
+    color: #9aa5ce;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.footer {
+    background-color: #1a1b26;
+    border-top: 1px solid #9aa5ce;
+    font-family: "Work Sans";
+}
+
+.footer a {
+    color: #9aa5ce88;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+.footer a:hover {
+    color: #9aa5ce;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer h5 {
+    color: #9aa5ce;
+    margin-bottom: 0.5em;
+}
+
+.about-container h2,
+h5 {
+    font-family: "Playfair Display";
+}
+
+.about-container h2 {
+    font-size: 3em;
+    color: #f7768e;
+}
+
+.about-container h5 {
+    font-size: 1.5em;
+}
+
+.about-container p,
+ul {
+    font-family: "Work Sans";
+    color: #9aa5ce;
+}
+
+.about-container a {
+    color: #9968f5;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+.about-container a:hover {
+    color: #bb9af7;
+}
+
+.heading-1 h5 {
+    color: #2ac3de;
+}
+
+.heading-2 h5 {
+    color: #bb9af7;
+}
+
+.heading-3 h5 {
+    color: #ff9e64;
+}
+
+.heading-4 h5 {
+    color: #9ece6a;
+}
+
+.heading-5 h5 {
+    color: #f7768e;
+}
+
+.about-container section {
+    padding-left: 1.5em;
+}
+
+.heading-1 {
+    border-left: 4px solid #2ac3de;
+}
+
+.heading-2 {
+    border-left: 4px solid #9968f5;
+}
+.heading-3 {
+    border-left: 4px solid #ff9e64;
+}
+.heading-4 {
+    border-left: 4px solid #9ece6a;
+}
+.heading-5 {
+    border-left: 4px solid #f7768e;
+}
+
+@media (max-width: 1000px) {
+    .title, .snippet-heading {
+        font-size: 2em;
+    }
+
+    .img-container h4 {
+        font-size: 1.5em;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 650px) {
+    .title, .snippet-heading {
+        font-size: 1.5em;
+    }
+
+    .img-container h4 {
+        font-size: 1em;
+    }
+
+    .btn-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .buttons-container a {
+        font-size: .8em;
+    }
+
+     .description {
+        font-size: 0.8em;
+    }
+
+    .palette-container .title {
+        font-size: 2.5em;
+    }
+
+    .para {
+        font-size: 1em;
+    }
+
+    .palette-title {
+        font-size: 1.5em;
+    }
+
+    .footer h5 {
+        font-size: 1em;
+    }
+
+    .footer ul {
+        font-size: 0.8em;
+    }
+
+    .about-container h2 {
+        font-size: 2.5em;
+    }
+}

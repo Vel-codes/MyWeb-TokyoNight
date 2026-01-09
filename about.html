@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tokyo Night Website</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body id="body">
+        <div class="nav-container d-flex justify-content-center">
+            <nav class="navbar navbar-expand-lg custom-navbar">
+                <div class="container-fluid">
+                    <a
+                        id="navbar-brand"
+                        class="navbar-brand"
+                        href="/home.html"
+                    >
+                        <img
+                            class="navbar-logo"
+                            src="public/icons/brandLogo.svg"
+                            alt=""
+                        />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul id="navbar-links" class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="/home.html"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon home-icon"
+                                        viewBox="0 0 512 512"
+                                    >
+                                        <path
+                                            d="M261.56 101.28a8 8 0 00-11.06 0L66.4 277.15a8 8 0 00-2.47 5.79L63.9 448a32 32 0 0032 32H192a16 16 0 0016-16V328a8 8 0 018-8h80a8 8 0 018 8v136a16 16 0 0016 16h96.06a32 32 0 0032-32V282.94a8 8 0 00-2.47-5.79z"
+                                        />
+                                        <path
+                                            d="M490.91 244.15l-74.8-71.56V64a16 16 0 00-16-16h-48a16 16 0 00-16 16v32l-57.92-55.38C272.77 35.14 264.71 32 256 32c-8.68 0-16.72 3.14-22.14 8.63l-212.7 203.5c-6.22 6-7 15.87-1.34 22.37A16 16 0 0043 267.56L250.5 69.28a8 8 0 0111.06 0l207.52 198.28a16 16 0 0022.59-.44c6.14-6.36 5.63-16.86-.76-22.97z"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/palette.html">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon palette-icon"
+                                        viewBox="0 0 512 512"
+                                    >
+                                        <path
+                                            d="M441 336.2l-.06-.05c-9.93-9.18-22.78-11.34-32.16-12.92l-.69-.12c-9.05-1.49-10.48-2.5-14.58-6.17-2.44-2.17-5.35-5.65-5.35-9.94s2.91-7.77 5.34-9.94l30.28-26.87c25.92-22.91 40.2-53.66 40.2-86.59s-14.25-63.68-40.2-86.6c-35.89-31.59-85-49-138.37-49C223.72 48 162 71.37 116 112.11c-43.87 38.77-68 90.71-68 146.24s24.16 107.47 68 146.23c21.75 19.24 47.49 34.18 76.52 44.42a266.17 266.17 0 0086.87 15h1.81c61 0 119.09-20.57 159.39-56.4 9.7-8.56 15.15-20.83 15.34-34.56.21-14.17-5.37-27.95-14.93-36.84zM112 208a32 32 0 1132 32 32 32 0 01-32-32zm40 135a32 32 0 1132-32 32 32 0 01-32 32zm40-199a32 32 0 1132 32 32 32 0 01-32-32zm64 271a48 48 0 1148-48 48 48 0 01-48 48zm72-239a32 32 0 1132-32 32 32 0 01-32 32z"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about.html">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 640 640"
+                                        class="icon about-icon"
+                                    >
+                                        <!--!Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                                        <path
+                                            d="M272 112C272 85.5 293.5 64 320 64C346.5 64 368 85.5 368 112C368 138.5 346.5 160 320 160C293.5 160 272 138.5 272 112zM224 256C224 238.3 238.3 224 256 224L320 224C337.7 224 352 238.3 352 256L352 512L384 512C401.7 512 416 526.3 416 544C416 561.7 401.7 576 384 576L256 576C238.3 576 224 561.7 224 544C224 526.3 238.3 512 256 512L288 512L288 288L256 288C238.3 288 224 273.7 224 256z"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="about-container container">
+            <div class="container my-5">
+                <h2 class="mb-5">About</h2>
+
+                <section class="mb-5 heading-1">
+                    <h5>What this is</h5>
+                    <p>
+                        Tokyo Night Theme is a curated collection of dark,
+                        neon-inspired color palettes designed for modern
+                        interfaces, code editors, and creative projects.
+                    </p>
+                </section>
+
+                <section class="mb-5 heading-2">
+                    <h5>Inspiration</h5>
+                    <p>
+                        Inspired by Tokyo after sunset — glowing neon signs,
+                        rain-soaked streets, deep shadows, and soft highlights —
+                        these palettes focus on calm dark backgrounds with
+                        vibrant accent colors. The website is inspired by
+                        <a
+                            href="https://wixdaq.github.io/Tokyo-Night-Website/index.html"
+                            >this website.</a
+                        >
+                    </p>
+                </section>
+
+                <section class="mb-5 heading-3">
+                    <h5>Who it's for</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            • Developers building apps, dashboards, and themes
+                        </li>
+                        <li>• Designers working on dark UI and web projects</li>
+                        <li>• Creators who love clean, aesthetic visuals</li>
+                    </ul>
+                </section>
+
+                <section class="mb-5 heading-4">
+                    <h5>How to use</h5>
+                    <p>
+                        You can freely use these palettes in personal or
+                        commercial projects ofcourse. Copy HEX or RGB values
+                        directly from the <a href="/palette">palette</a> and
+                        apply them in CSS, design tools, or editor themes.
+                    </p>
+                </section>
+
+                <section class="mb-5 heading-5">
+                    <h5>About the creator</h5>
+                    <p>
+                        Built by a developer (velix) who enjoys dark UIs, clean
+                        design. This project is part of an ongoing journey of
+                        mine, journey of a software engineer.
+                    </p>
+                </section>
+            </div>
+        </div>
+        <footer class="footer py-4 mt-5">
+            <div class="container d-flex gap-5">
+                <div>
+                    <h5>Socials</h5>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Vel-codes">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@VelixRoblox"
+                                >Youtube</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Content</h5>
+                    <ul>
+                        <li><a href="/home.html">Home</a></li>
+                        <li><a href="/palette.html">Palette</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>The Website</h5>
+                    <ul>
+                        <li><a href="/about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
